@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--cor2);
+}
+
+:root {
+    --cor1: #33220E;
+    --cor2: #664D30;
+    --cor3: #998167;
+    --cor4: #FFDFBA;
+    --cor5: #CCC0B1;
+}
+
+body {
+    background-color: var(--cor5);
+}
+
+header {
+    background-color: var(--cor3);
+    max-height: 100px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.308);
+}
+
+header > nav {
+    text-align: left;
+    padding: 40px 5px;
+}
+
+header a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+    font-size: 1em;
+    border-radius: 10px;
+}
+
+header a:hover {
+    text-decoration: underline;
+    background-color: var(--cor5);
+    color: var(--cor2);
+    transition-duration: .5s;
+    font-size: 1.1em;
+}
+
+main {
+    background-color: white;
+    max-width: 1000px;
+    margin: auto;
+}
+
+main > h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+main > h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+main a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+main > div {
+    text-align: center;
+}
+
+main div.produtos {
+    width: 300px;
+    height: 260px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.411);
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+main h3 {
+    padding: 10px;
+}
+
+main p.preco {
+    padding: 10px;
+}
+
+main div.produtos:hover {
+    border-color: rgba(0, 0, 0, 0.712);
+    width: 310px;
+    height: 270px;
+    font-size: 1.2em;
+    transition-duration: .3s;
+}
+
+main div#ultimo {
+    padding-bottom: 20px;
+}
+
+footer {
+    background-color: var(--cor3);
+}
+
+footer h3 {
+    color: white;
+    padding: 20px 0px 10px 0px;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    padding: 0px 0px 20px 0px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer > div {
+    text-align: center;
+}
+
+footer div.footer {
+    display: inline-block;
+    margin: 50px;
+}
