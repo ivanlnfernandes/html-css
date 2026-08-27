@@ -24,6 +24,20 @@ header > h1 {
     border: 1px dotted black;
 }
 
+header > nav > a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+header > nav > a:hover {
+    
+}
+
 nav {
     border: 1px dotted black;
 }
