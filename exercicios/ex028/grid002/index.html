@@ -9,13 +9,12 @@
             border: 3px solid blue;
             height: 300px;
             display: grid;
-            grid-template-columns: auto auto auto;
-            grid-template-rows: auto auto auto;
-            gap: 5px;
-            align-items: normal;
+            grid-template: repeat(3, auto) / repeat(3, auto);
+            gap: 10px;
+            align-items: start;
             justify-items: normal;
-            align-content: space-between;
-            justify-content: space-between;
+            place-items: start normal;
+            place-content: space-between space-between;
         }
 
         div.item {
